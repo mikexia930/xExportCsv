@@ -3,9 +3,8 @@
 >客户端导出CSV，浏览器兼容，支持大文件导出。
 >
 >
-[Demo](https://mikexia930.github.io/xExportCsv/)
 ## 版本
-- v1.0.3
+- v1.0.4
 
 ## 安装
 ```
