@@ -5,7 +5,7 @@
 >
 [Demo](https://mikexia930.github.io/xExportCsv/)
 ## 版本
-- v1.0.2
+- v1.0.3
 
 ## 安装
 ```
@@ -26,9 +26,9 @@ xExportCsv.exportCsv(filename, exportData).then(() => {
 })
 ```
 
-|参数名| 类型          | 说明         |
-| --- |-------------|------------|
-| filename | string      | 下载时保存的文件名  |
-| exportData | string[][] | number[][] |  需要导出的数据         |
+|参数名| 类型                    | 说明         |
+| --- |-----------------------|------------|
+| filename | string                | 下载时保存的文件名  |
+| exportData | string[][] |  需要导出的数据         |
 
 

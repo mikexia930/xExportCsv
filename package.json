@@ -6,7 +6,7 @@
     "CSV 导出",
     "大数据导出 CSV"
   ],
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": false,
   "license": "MIT",
   "files": [
