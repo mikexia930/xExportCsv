@@ -11,15 +11,15 @@ type IFBrowserCheck = {
   [key in Partial<EnumBrowsers>]: string | number;
 }
 
-class JsonExportCSV {
+class XExportCSV {
 
-  static ExportCsvIns: JsonExportCSV | null;
+  static ExportCsvIns: XExportCSV | null;
   /**
    * 获取单例
    */
   static getInstance() {
     if (!this.ExportCsvIns) {
-      this.ExportCsvIns = new JsonExportCSV();
+      this.ExportCsvIns = new XExportCSV();
     }
     return this.ExportCsvIns;
   }
@@ -160,7 +160,7 @@ class JsonExportCSV {
   }
 }
 
-const JsonExportCSVIns = JsonExportCSV.getInstance();
+const xExportCSVIns = XExportCSV.getInstance();
 
-export default JsonExportCSVIns;
+export default xExportCSVIns;
 
