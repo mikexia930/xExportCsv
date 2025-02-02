@@ -6,18 +6,19 @@
     "CSV 导出",
     "大数据导出 CSV"
   ],
-  "version": "1.0.4",
+  "version": "1.0.5",
   "private": false,
   "license": "MIT",
   "files": [
     "dist/*"
   ],
-  "main": "./dist/xexportcsv.es.umd.js",
-  "module": "./dist/xexportcsv.es.es.js",
+  "main": "./dist/xexportcsv.umd.js",
+  "module": "./dist/xexportcsv.es.js",
+  "types": "./lib/xexportcsv.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/xexportcsv.es.es.js",
-      "require": "./dist/xexportcsv.es.umd.js"
+      "import": "./dist/xexportcsv.es.js",
+      "require": "./dist/xexportcsv.umd.js"
     }
   },
   "scripts": {
@@ -30,7 +31,6 @@
     "build:lib": "LIB_NAME=lib vite build"
   },
   "devDependencies": {
-    "vue": "^3.3.4",
     "@rushstack/eslint-patch": "^1.3.3",
     "@tsconfig/node18": "^18.2.2",
     "@types/node": "^18.17.17",
@@ -43,6 +43,11 @@
     "npm-run-all2": "^6.0.6",
     "typescript": "~5.2.0",
     "vite": "^4.4.9",
+    "vue": "^3.3.4",
     "vue-tsc": "^1.8.11"
+  },
+  "dependencies": {
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1"
   }
 }
